@@ -4,7 +4,6 @@
   <a href="https://travis-ci.com/abhijithvijayan/nice-try-scribd">
     <img src="https://travis-ci.com/abhijithvijayan/nice-try-scribd.svg?branch=main" alt="Travis Build" />
   </a>
-  </a>
   <a href="https://david-dm.org/abhijithvijayan/nice-try-scribd">
     <img src="https://img.shields.io/david/abhijithvijayan/nice-try-scribd.svg?colorB=orange" alt="DEPENDENCIES" />
   </a>
@@ -30,6 +29,14 @@
 
 ❤️ it? ⭐️ it on [GitHub](https://github.com/abhijithvijayan/nice-try-scribd/stargazers) or [Tweet](https://twitter.com/intent/tweet?text=Check%20out%20nice-try-scribd%21%20by%20%40_abhijithv%0A%0AUnblur%20Scribd%20Documents...%0Ahttps%3A%2F%2Fgithub.com%2Fabhijithvijayan%2Fnice-try-scribd%0A%0A%23chrome%20%23unblur%20%23scribd%20%23firefox%20%23javascript) about it.
 
+## Browser Support
+
+| [![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png)](#) | [![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png)](https://addons.mozilla.org/firefox/addon/nice-try-scribd/) | [![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_48x48.png)](#for-opera) | [![Edge](https://raw.github.com/alrra/browser-logos/master/src/edge/edge_48x48.png)](#) | [![Yandex](https://raw.github.com/alrra/browser-logos/master/src/yandex/yandex_48x48.png)](#) | [![Brave](https://raw.github.com/alrra/browser-logos/master/src/brave/brave_48x48.png)](#) | [![vivaldi](https://raw.github.com/alrra/browser-logos/master/src/vivaldi/vivaldi_48x48.png)](#) |
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --------------------------------------------------------------------------------------------------------------------------------------------- |-------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 88 & later ✔                                                                                                                                                              | 52 & later ✔ | 74 & later ✔                                                                                                      | 88 & later ✔                                                                                                                                                        | Latest ✔ | Latest ✔ | Latest ✔
+
+## How to use
+
 ![demo](demo.png)
 
 ## Table of Contents
@@ -44,9 +51,16 @@
 
 ### Download for browser(s)
 
-- Firefox: [Nice Try Scribd :: Add-ons for Firefox](https://addons.mozilla.org/en-US/firefox/addon/nice-try-scribd/)
-- Other Browsers: [Download from releases](https://github.com/abhijithvijayan/nice-try-scribd/releases)
+- Chrome: [Résumé Downloader :: Chrome Web Store](#)
+- Firefox: [Résumé Downloader :: Add-ons for Firefox](https://addons.mozilla.org/firefox/addon/nice-try-scribd/)
+- Opera [Résumé Downloader :: Opera addons](#for-opera)
+- Edge: [Résumé Downloader :: Chrome Web Store](#)
 
+#### For Opera
+
+In order to install this extension from Chrome Web Store, another opera extension called **Install Chrome Extension** should be installed first.
+
+- [Opera addon :: Install Chrome Extension](https://addons.opera.com/en/extensions/details/install-chrome-extensions/)
 ## 🚀 Quick Start
 
 - `yarn install` to install dependencies.

@@ -5,7 +5,7 @@
  *  @license  MIT License
  */
 
-function unblur() {
+function unblur(): void {
   // **** Wrappers **** //
   // `You're Reading a Preview` card
   $('.promo').remove();
@@ -24,3 +24,5 @@ function unblur() {
 }
 
 unblur();
+
+export {};

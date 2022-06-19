@@ -1,5 +1,7 @@
 {
-  "manifest_version": 2,
+  "__chrome|opera|edge__manifest_version": 3,
+  "__firefox__manifest_version": 2,
+
   "name": "Nice Try Scribd",
   "version": "0.0.0",
   "icons": {
@@ -13,14 +15,26 @@
   "homepage_url": "https://github.com/abhijithvijayan/nice-try-scribd.git",
   "short_name": "Nice Try Scribd",
 
-  "permissions": [
+  "__chrome|opera|edge__host_permissions": [
     "http://*.scribd.com/*",
     "https://*.scribd.com/*"
   ],
 
-  "__dev__content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
-  "__prod__content_security_policy": "script-src 'self'; object-src 'self'",
+  "__firefox__permissions": [
+    "http://*.scribd.com/*",
+    "https://*.scribd.com/*"
+  ],
 
+  "__chrome|opera|edge|dev__content_security_policy": {
+    "extension_pages": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+  },
+
+  "__chrome|opera|edge|prod__content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+
+  "__firefox|dev__content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "__firefox|prod__content_security_policy": "script-src 'self'; object-src 'self'",
 
   "__chrome|firefox__author": "abhijithvijayan",
   "__opera__developer": {
@@ -29,12 +43,13 @@
 
   "__firefox__applications": {
     "gecko": {
-      "id": "{6bb1cd78-3b5f-427f-9902-68dff6f5cfc6}"
+      "id": "{6bb1cd78-3b5f-427f-9902-68dff6f5cfc6}",
+      "strict_min_version": "52.0"
     }
   },
 
-  "__chrome__minimum_chrome_version": "49",
-  "__opera__minimum_opera_version": "36",
+  "__chrome__minimum_chrome_version": "88",
+  "__opera__minimum_opera_version": "74",
 
   "content_scripts": [{
     "matches": [
