@@ -51,10 +51,10 @@
 
 ### Download for browser(s)
 
-- Chrome: [Résumé Downloader :: Chrome Web Store](https://chrome.google.com/webstore/detail/opofconegbijdhjogdlhbnadnffeogme)
-- Firefox: [Résumé Downloader :: Add-ons for Firefox](https://addons.mozilla.org/firefox/addon/nice-try-scribd/)
-- Opera [Résumé Downloader :: Opera addons](#for-opera)
-- Edge: [Résumé Downloader :: Chrome Web Store](https://chrome.google.com/webstore/detail/opofconegbijdhjogdlhbnadnffeogme)
+- Chrome: [Nice Try Scribd :: Chrome Web Store](https://chrome.google.com/webstore/detail/opofconegbijdhjogdlhbnadnffeogme)
+- Firefox: [Nice Try Scribd :: Add-ons for Firefox](https://addons.mozilla.org/firefox/addon/nice-try-scribd/)
+- Opera [Nice Try Scribd :: Opera addons](#for-opera)
+- Edge: [Nice Try Scribd :: Chrome Web Store](https://chrome.google.com/webstore/detail/opofconegbijdhjogdlhbnadnffeogme)
 
 #### For Opera
 
