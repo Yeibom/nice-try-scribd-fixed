@@ -9,6 +9,7 @@ function unblur(): void {
   // **** Wrappers **** //
   // `You're Reading a Preview` card
   $('.promo').remove();
+  $('.promo_div').remove();
   // `Unlock full access by uploading documents` page divider
   $('.between_page_module').remove();
 
